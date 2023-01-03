@@ -1,4 +1,4 @@
-import CreateStore, { IStore, IAppDispatch } from './CreateStore';
+import CreateStore, { IAppDispatch, IStore } from './CreateStore';
 import RootReducer, { IRootReducer, IRootState } from './RootReducer';
 
 export { CreateStore, RootReducer };

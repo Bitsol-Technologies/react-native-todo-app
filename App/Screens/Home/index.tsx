@@ -1,5 +1,4 @@
-import { useNavigation } from '@react-navigation/native';
-import React, { useEffect } from 'react';
+import React from 'react';
 import { FlatList, TouchableOpacity, View } from 'react-native';
 import { Surface, Text } from 'react-native-paper';
 import { Bar } from 'react-native-progress';

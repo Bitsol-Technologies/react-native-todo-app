@@ -4,7 +4,7 @@ import { AuthSliceReducer } from '../Slices';
 
 const RootReducer = combineReducers({
   authSlice: AuthSliceReducer,
-  [AuthApi.reducerPath]: AuthApi.reducer
+  [AuthApi.reducerPath]: AuthApi.reducer,
 });
 
 export default RootReducer;

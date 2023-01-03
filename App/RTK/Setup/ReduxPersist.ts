@@ -10,8 +10,8 @@ const REDUX_PERSIST = {
     key: 'primary',
     storage: AsyncStorage,
     whitelist: ['authSlice'],
-    transforms: [authReduxWhiteList]
-  }
+    transforms: [authReduxWhiteList],
+  },
 };
 
 export default REDUX_PERSIST;

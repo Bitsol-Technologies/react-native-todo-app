@@ -1,7 +1,7 @@
 import React from 'react';
 import {
+  initialWindowMetrics,
   SafeAreaProvider,
-  initialWindowMetrics
 } from 'react-native-safe-area-context';
 import RootNavigator from './Navigation/RootNavigator';
 

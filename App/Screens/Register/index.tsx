@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { ImageBackground, View } from 'react-native';
-import { Surface, TextInput, Text } from 'react-native-paper';
+import { Surface, Text, TextInput } from 'react-native-paper';
 import { useSignupMutation } from '../../RTK/Api/AuthApi';
 import { Button } from '../../Components';
 import { Images } from '../../Images';
@@ -67,7 +67,7 @@ const Register = () => {
                 email,
                 password,
                 firstName,
-                lastName
+                lastName,
               })
             }
             style={CommonStyles.fieldMarginTop}

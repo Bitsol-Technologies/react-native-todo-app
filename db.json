@@ -1,46 +1,18 @@
 {
   "users": [
     {
-      "id": 1,
-      "first_name": "Reine",
-      "last_name": "Peotz",
-      "email": "rpeotz0@deliciousdays.com",
-      "password": "UUtsv5eeVf"
-    },
-    {
-      "id": 2,
-      "first_name": "Kara-lynn",
-      "last_name": "Killby",
-      "email": "kkillby1@edublogs.org",
-      "password": "cjjMcDBYtAhG"
-    },
-    {
-      "id": 3,
-      "first_name": "Lurlene",
-      "last_name": "Josephsen",
-      "email": "ljosephsen2@linkedin.com",
-      "password": "dLWE8nt6"
-    },
-    {
-      "id": 4,
-      "first_name": "Consuela",
-      "last_name": "Glasper",
-      "email": "cglasper3@usa.gov",
-      "password": "BWLtbu"
-    },
-    {
-      "id": 5,
-      "first_name": "Hillary",
-      "last_name": "Fagg",
-      "email": "hfagg4@tuttocitta.it",
-      "password": "3k4DYHo"
-    },
-    {
       "email": "example@gmail.com",
       "password": "$2a$10$34h8cJd5y3LQpIayWJ1l9OYZRl8VTBLDyaS7BdLVRYIJwUSethCo.",
       "firstName": "John",
       "lastName": "Doe",
       "id": 6
+    },
+    {
+      "email": "Waqas@bitsol.tech",
+      "password": "$2a$10$ia.drNyGSBwszR41fS8xl.Kx6/eMipd/cSt8LNIcZvhWviVaMLUfe",
+      "firstName": "Waqas",
+      "lastName": "Ahmed",
+      "id": 7
     }
   ]
 }

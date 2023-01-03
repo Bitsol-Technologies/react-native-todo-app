@@ -8,7 +8,7 @@ import {
   persistStore,
   PURGE,
   REGISTER,
-  REHYDRATE
+  REHYDRATE,
 } from 'redux-persist';
 import { AuthApi } from '../Api';
 import REDUX_PERSIST from './ReduxPersist';
@@ -27,11 +27,11 @@ const CreateStore = () => {
     middleware: getDefaultMiddleware =>
       getDefaultMiddleware({
         serializableCheck: {
-          ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER]
-        }
+          ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
+        },
       }).concat(middlewares),
     devTools: __DEV__,
-    enhancers
+    enhancers,
   });
 
   let persistor;

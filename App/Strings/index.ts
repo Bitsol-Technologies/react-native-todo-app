@@ -7,7 +7,7 @@ const AuthText = {
   lastName: 'Last Name',
   signUp: 'Sign Up',
   signupMessage: "Don't have an account?",
-  signUpHere: 'Sign Up Here'
+  signUpHere: 'Sign Up Here',
 };
 
 const HomeText = {
@@ -15,7 +15,7 @@ const HomeText = {
   personal: 'Personal',
   todo: 'Todo',
   todoList: 'Todo List',
-  tasks: 'Tasks'
+  tasks: 'Tasks',
 };
 
 export { AuthText, HomeText };

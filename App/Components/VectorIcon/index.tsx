@@ -14,6 +14,7 @@ import Octicons from 'react-native-vector-icons/Octicons';
 import Fontisto from 'react-native-vector-icons/Fontisto';
 import { IconProps } from 'react-native-vector-icons/Icon';
 import { useTheme } from '@react-navigation/native';
+
 export enum ICON_TYPES {
   AntDesign = 'AntDesign',
   Ionicons = 'Ionicons',
@@ -27,7 +28,7 @@ export enum ICON_TYPES {
   FeatherIcons = 'FeatherIcons',
   Octicons = 'Octicons',
   Fontisto = 'Fontisto',
-  Custom = 'custom'
+  Custom = 'custom',
 }
 export interface IVectorIcon extends Partial<IconProps> {
   iconType?: ICON_TYPES;

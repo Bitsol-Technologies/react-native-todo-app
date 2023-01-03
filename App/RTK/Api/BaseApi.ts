@@ -2,7 +2,7 @@ import {
   BaseQueryFn,
   FetchArgs,
   fetchBaseQuery,
-  FetchBaseQueryError
+  FetchBaseQueryError,
 } from '@reduxjs/toolkit/dist/query';
 import { BASE_URL } from '../../Config/Api';
 import { IRootState } from '../Setup';
@@ -11,7 +11,7 @@ const fetchBase = fetchBaseQuery({
   baseUrl: BASE_URL,
   prepareHeaders: (headers, { getState, endpoint }) => {
     const {} = getState() as IRootState;
-  }
+  },
 });
 
 export const baseQuery: BaseQueryFn<

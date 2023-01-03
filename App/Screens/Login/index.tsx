@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { ImageBackground, TouchableOpacity, View } from 'react-native';
-import { Surface, TextInput, Text } from 'react-native-paper';
+import { Surface, Text, TextInput } from 'react-native-paper';
 import { useUserLoginMutation } from '../../RTK/Api/AuthApi';
 import { Button, Spinner } from '../../Components';
 import { Images } from '../../Images';
@@ -13,8 +13,7 @@ const Login = () => {
   const navigation = useNavigation();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [login, { isLoading, isError, isSuccess, error, data }] =
-    useUserLoginMutation();
+  const [login, { isLoading }] = useUserLoginMutation();
 
   return (
     <ImageBackground source={Images.loginBg} style={CommonStyles.flex}>
@@ -47,7 +46,7 @@ const Login = () => {
             onPress={() =>
               login({
                 email,
-                password
+                password,
               })
             }
             style={CommonStyles.fieldMarginTop}

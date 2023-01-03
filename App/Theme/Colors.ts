@@ -3,7 +3,7 @@ const Colors = {
   gradientStart: '#2E22AB',
   gradientEnd: '#DE4B9C',
   white: '#ffffff',
-  black: '#000'
+  black: '#000',
 };
 
 export default Colors;

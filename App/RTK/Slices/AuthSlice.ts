@@ -2,7 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 import { AuthApi } from '../Api';
 
 const INITIAL_STATE: IAuthState = {
-  accessToken: undefined
+  accessToken: undefined,
 };
 
 const AuthSlice = createSlice({
@@ -22,7 +22,7 @@ const AuthSlice = createSlice({
         state.accessToken = payload.accessToken;
       }
     );
-  }
+  },
 });
 
 export default AuthSlice.actions;

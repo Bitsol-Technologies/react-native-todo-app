@@ -1,8 +1,7 @@
-import React from 'react';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { View } from 'react-native';
-import { Checkbox, Text, Surface, Button } from 'react-native-paper';
-import { Colors, CommonStyles } from '../../Theme';
+import { Button, Surface, Text } from 'react-native-paper';
+import { CommonStyles } from '../../Theme';
 import styles from './styles';
 
 interface TodoItemProps {
